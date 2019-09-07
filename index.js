@@ -1,5 +1,5 @@
-const line = 20;
-const column = 20;
+const line = 15;
+const column = 15;
 const maxRectangle = line*column;
 var limitCt = 0;
 window.onload = function() {
@@ -8,7 +8,7 @@ window.onload = function() {
   let k = 1;
   for (let i = 1; i <= line; i++) {
     for (let j = 1; j <= column; j++) {
-      selectChangeCt = Math.floor(Math.random()*10)+1
+      // selectChangeCt = Math.floor(Math.random()*10)+1
       const div = document.createElement('div');
       div.id='black_rectangele_' + k;
       div.classList.add('box');
