@@ -1,5 +1,5 @@
-const line = 15;
-const column = 15;
+const line = 10;
+const column = 10;
 const maxRectangle = line*column;
 var limitCt = 0;
 window.onload = function() {
